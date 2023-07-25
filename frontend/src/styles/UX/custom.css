@@ -1,0 +1,168 @@
+.borderx {
+  border: solid red 1px;
+}
+
+.bg-gradient-body {
+  background: rgb(56, 95, 126);
+  background: radial-gradient(
+    circle,
+    rgba(56, 95, 126, 1) 0%,
+    rgb(0, 22, 39) 90%
+  );
+}
+
+.bg-gradient-banner {
+  background: rgb(113, 113, 113);
+  background: radial-gradient(
+    circle,
+    rgba(113, 113, 113, 1) 0%,
+    rgba(56, 56, 56, 1) 90%
+  );
+
+  a {
+    color: #fff;
+  }
+}
+
+.cardx {
+  background-color: #e5e4c2;
+}
+
+.bg-grandient-primary {
+  background: transparent
+    linear-gradient(180deg, #b0a36c, #dbdd9c 36%, #c7bc7c 78%, #938441) 0 0
+    no-repeat padding-box;
+}
+.bg-grandient-secondary {
+  background: transparent
+    radial-gradient(closest-side at 50% 50%, #003c6b 0, #001e36 100%) 0 0
+    no-repeat padding-box;
+}
+
+.btn__gold {
+  background: transparent
+    linear-gradient(180deg, #b0a36c, #dbdd9c 36%, #c7bc7c 78%, #938441) 0 0
+    no-repeat padding-box !important;
+  box-shadow: 0 3px 6px hsla(0, 0%, 100%, 0.6) !important;
+  border-radius: 12px;
+  font-weight: 700;
+  color: #000 !important;
+  padding: 6px 30px;
+  border: none;
+  transition: all 1s ease !important;
+  display: flex;
+  align-items: center;
+}
+
+.btn_form_secondary {
+  background: transparent
+    radial-gradient(closest-side at 50% 50%, #003c6b 0, #001e36 100%) 0 0
+    no-repeat padding-box;
+  box-shadow: 0 3px 6px hsl(0deg 0% 100% / 60%);
+  border-radius: 20px;
+  font-weight: 700;
+  color: #fff;
+  padding: 6px 0;
+  border: none;
+  transition: all 1s ease;
+}
+
+.table-container {
+  min-height: 50vh;
+  position: relative;
+
+  .table th:first-child {
+    position: relative !important;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+
+    outline: none;
+
+    th {
+      font-weight: bold;
+    }
+
+    th,
+    td {
+      background-color: transparent;
+      white-space: nowrap;
+      padding: 1rem;
+    }
+
+    td,
+    th {
+      border-bottom: solid #b0a36c 1px;
+    }
+  }
+}
+
+.collapse-title,
+.collapse > input[type='checkbox'] {
+  width: 100%;
+  padding: 3px 2px !important;
+  min-height: 0 !important;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.collapse-content {
+  grid-row-start: 2;
+  overflow: hidden;
+  max-height: 0px;
+  padding-left: 0;
+  padding-right: 0;
+  cursor: unset;
+  transition: padding 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+input[type='number'] {
+  position: relative;
+
+  &::-webkit-inner-spin-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+}
+
+input[type='number'] {
+  position: relative;
+
+  &::-webkit-inner-spin-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+}
+
+.hr-v {
+  position: relative;
+  &::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    margin: 0 1em;
+    background-color: white;
+  }
+}
+
+.btn_active_pag {
+  @apply btn-active;
+  background-color: #303640 !important;
+  color: #fff !important;
+  border-color: transparent !important;
+}

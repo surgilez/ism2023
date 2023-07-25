@@ -1,0 +1,40 @@
+@import './hotel.css';
+@import './shopping.css';
+
+.service_container_2 {
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-image: url('../app/assets/banner/travel_1.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(50%);
+  }
+}
+
+.service_container_main {
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-image: url('../app/assets/banner/travel_2.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(50%);
+  }
+}

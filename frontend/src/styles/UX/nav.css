@@ -1,0 +1,42 @@
+.navAside {
+  padding: 2em;
+  li {
+    padding: 0.5em 0;
+    border-bottom: solid 1px hsl(var(--p));
+  }
+}
+
+.navActive {
+  display: block;
+  span {
+    border: solid var(--violet) 1px;
+    background-color: var(--violet);
+    border-radius: 10px;
+    padding: 0.2em 0.5em;
+    width: 100%;
+    display: block;
+  }
+}
+
+.subNavActive {
+  @apply !text-gray-200;
+  background: rgb(113, 113, 113);
+  background: radial-gradient(
+    circle,
+    rgba(113, 113, 113, 1) 0%,
+    rgba(56, 56, 56, 1) 90%
+  );
+}
+
+.landing__logo {
+  @apply m-[5px] ml-[1em];
+  width: 75px;
+  height: auto;
+  cursor: pointer;
+  img {
+    object-fit: cover;
+    display: block;
+    height: inherit;
+    width: inherit;
+  }
+}

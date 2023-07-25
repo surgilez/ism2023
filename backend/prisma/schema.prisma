@@ -1,0 +1,261 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+generator zod {
+  provider              = "zod-prisma"
+  output                = "./../src/schemas"
+  relationMode          = true
+  modelCase             = "PascalCase"
+  modelSuffix           = "Model"
+  useDecimalJs          = true
+  prismaJsonNullability = true
+}
+
+enum TypeSeller {
+  interno
+  externo
+}
+
+model Role {
+  id        String    @id @default(cuid()) /// @zod.optional()
+  name      String    @unique /// @zod.max(50, "Máximo 50 caracteres")
+  accounts  Account[]
+  state     Boolean?  @default(true)
+  createdAt DateTime? @default(now())
+  updatedAt DateTime? @updatedAt
+
+  @@map("role")
+}
+
+model Person {
+  id           String      @id @default(cuid()) /// @zod.optional()
+  name         String /// @zod.max(50, "Máximo 50 caracteres")
+  lastName     String /// @zod.max(50, "Máximo 50 caracteres")
+  doc          String /// @zod.max(20, "Máximo 20 caracteres")
+  accountId    String      @unique
+  account      Account     @relation(fields: [accountId], references: [id])
+  img          String?
+  phone        String? /// @zod.max(20, "Máximo 20 caracteres")
+  address      String? /// @zod.max(100, "Máximo 100 caracteres")
+  commission   Int?
+  typeSeller   TypeSeller?
+  allowAdviser Boolean?
+  allowChat    Boolean?
+  createdAt    DateTime?   @default(now())
+  updatedAt    DateTime?   @updatedAt
+  seller       Account?    @relation("sellerClient", fields: [sellerId], references: [id])
+  sellerId     String?
+
+  @@map("person")
+}
+
+model Account {
+  id           String       @id @default(cuid()) /// @zod.optional()
+  email        String       @unique /// @zod.max(50, "Máximo 50 caracteres")
+  role         Role         @relation(fields: [roleId], references: [id])
+  password     String /// @zod.optional()
+  roleId       String
+  sessions     Session[]
+  sellers      Person[]     @relation("sellerClient")
+  state        Boolean?     @default(true)
+  online       Boolean?     @default(false)
+  refreshToken String?      @unique
+  person       Person?
+  createdAt    DateTime?    @default(now())
+  updatedAt    DateTime?    @updatedAt
+  memberships  Membership[]
+  cart         Cart?
+  messagesTo   Message[]    @relation("toAccount")
+  messagesFrom Message[]    @relation("fromAccount")
+
+  salesHistory SalesHistory[]
+  @@map("account")
+}
+
+model Session {
+  id          String    @id @default(cuid()) /// @zod.optional()
+  accessToken String    @unique
+  account     Account   @relation(fields: [accountId], references: [id])
+  accountId   String
+  createdAt   DateTime? @default(now())
+  updatedAt   DateTime? @updatedAt
+
+  @@map("session")
+}
+
+model Membership {
+  id        String                  @id @default(cuid()) /// @zod.optional()
+  code      String
+  name      String /// @zod.max(50, "Máximo 50 caracteres")
+  exp       Float
+  price     Float
+  img       String?
+  state     Boolean?                @default(true)
+  accounts  Account[]
+  createdAt DateTime?               @default(now())
+  updatedAt DateTime?               @updatedAt
+  services  ServicesToMemberships[]
+
+  Promotion Promotion[]
+  @@map("membership")
+}
+
+model Service {
+  id               String                  @id @default(cuid()) /// @zod.optional()
+  name             String /// @zod.max(50, "Máximo 50 caracteres")
+  profit           Float
+  state            Boolean?                @default(true)
+  createdAt        DateTime?               @default(now())
+  updatedAt        DateTime?               @updatedAt
+  informationApi   InformationApi?         @relation(fields: [informationApiId], references: [id])
+  informationApiId String?
+  memberships      ServicesToMemberships[]
+
+  @@map("service")
+}
+
+model InformationApi {
+  id          String      @id @default(cuid()) /// @zod.optional()
+  name        String /// @zod.max(50, "Máximo 50 caracteres")
+  contact     String
+  phone       String
+  webPage     String
+  country     String
+  state       Boolean?    @default(true)
+  createdAt   DateTime?   @default(now())
+  updatedAt   DateTime?   @updatedAt
+  services    Service[]
+  credentials Credential?
+
+  @@map("information_api")
+}
+
+model Credential {
+  id               String         @id @default(cuid()) /// @zod.optional()
+  username         String /// @zod.max(100, "Máximo 100 caracteres")
+  password         String
+  endPoint         String
+  createdAt        DateTime?      @default(now())
+  updatedAt        DateTime?      @updatedAt
+  InformationApi   InformationApi @relation(fields: [informationApiId], references: [id])
+  informationApiId String         @unique
+
+  @@map("credential")
+}
+
+model ServicesToMemberships {
+  id           String     @id @default(cuid()) /// @zod.optional()
+  dsto         Float
+  serviceId    String
+  service      Service    @relation(fields: [serviceId], references: [id])
+  membershipId String
+  membership   Membership @relation(fields: [membershipId], references: [id])
+  createdAt    DateTime?  @default(now())
+  updatedAt    DateTime?  @updatedAt
+
+  @@map("services_to_memberships")
+}
+
+model Hotel {
+  idHotel               String    @id @default(cuid())
+  id                    String
+  address               String?
+  amenity_groups        Json[]
+  check_in_time         String?
+  check_out_time        String?
+  description_struct    Json[]
+  images                String[]
+  kind                  String?
+  latitude              Float?
+  longitude             Float?
+  name                  String?
+  phone                 String?
+  policy_struct         Json[]
+  postal_code           String?
+  region                Json?
+  star_rating           Int?
+  email                 String?
+  semantic_version      Int?
+  serp_filters          String[]
+  is_closed             Boolean?
+  metapolicy_struct     Json?
+  metapolicy_extra_info String?
+  star_certificate      Json?
+  facts                 Json?
+  payment_methods       String[]
+  hotel_chain           String?
+  createdAt             DateTime? @default(now())
+  updatedAt             DateTime? @updatedAt
+
+  @@map("hotel")
+}
+
+model Cart {
+  id        String   @id @default(cuid()) /// @zod.optional()
+  shopping  Json[]
+  account   Account? @relation(fields: [accountId], references: [id])
+  accountId String   @unique
+
+  @@map("cart")
+}
+
+model Message {
+  id        Int      @id @default(autoincrement()) /// @zod.optional()
+  message   String   @db.Text
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  to        Account  @relation("toAccount", fields: [toId], references: [id])
+  toId      String
+  from      Account  @relation("fromAccount", fields: [fromId], references: [id])
+  fromId    String
+
+  @@map("message")
+}
+
+model SalesHistory {
+  id        String   @id @default(cuid()) /// @zod.optional()
+  form      Json
+  shopping  Json
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  account   Account  @relation(fields: [accountId], references: [id])
+  accountId String
+
+  @@map("sales_history")
+}
+
+model Promotion {
+  id           String      @id @default(cuid()) /// @zod.optional()
+  title        String
+  from         Float
+  until        Float
+  description  String
+  policies     String
+  state        Boolean?    @default(true)
+  img          String?
+  all          Boolean?    @default(false)
+  membership   Membership? @relation(fields: [membershipId], references: [id])
+  membershipId String?
+  createdAt    DateTime    @default(now())
+  updatedAt    DateTime    @updatedAt
+
+  @@map("promotion")
+}
+
+model Config {
+  id        String    @id @default(cuid()) /// @zod.optional()
+  host      String
+  port      String
+  secure    Boolean
+  auth      Json
+  createdAt DateTime? @default(now())
+  updatedAt DateTime? @updatedAt
+
+  @@map("config")
+}

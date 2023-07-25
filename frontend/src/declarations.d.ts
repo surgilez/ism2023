@@ -1,0 +1,7 @@
+declare module '*.svg'
+declare module '*.png'
+declare module '*.jpg'
+declare module '*.ttf'
+declare module 'react-select-country-list'
+declare module 'react-input-emoji'
+declare module 'moment/min/moment.min.js'

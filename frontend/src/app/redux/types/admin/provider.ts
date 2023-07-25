@@ -1,0 +1,6 @@
+export const GET_PROVIDERS = '[providers] GET_PROVIDERS'
+export const ACTIVE_PROVIDER = '[providers] ACTIVE_PROVIDER'
+export const UPDATE_PROVIDER = '[providers] UPDATE_PROVIDER'
+export const SET_LIST_PROVIDER = '[providers] SET_LIST_PROVIDER'
+export const RESET_PROVIDER_REPORT = '[providers] RESET_PROVIDER_REPORT'
+export const ADD_NEW_PROVIDER = '[providers] ADD_NEW_PROVIDER'

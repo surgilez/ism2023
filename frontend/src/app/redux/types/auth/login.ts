@@ -1,0 +1,5 @@
+export const SIGNIN = '[auth] signin'
+export const REGISTER = '[auth] register'
+export const LOGOUT = '[auth] signout'
+export const CHECK = '[auth] checking'
+export const ROLES = '[admin] ROLES'

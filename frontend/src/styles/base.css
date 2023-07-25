@@ -1,0 +1,21 @@
+@import './fonts.css';
+@import './UX/index.css';
+@import './landing/index.css';
+@import './body/index.css';
+@import './chat/index.css';
+@import './client/index.css';
+
+:root {
+  --violet: #6b6cb0;
+}
+
+html {
+  box-sizing: border-box;
+  width: 100vw !important;
+  padding: 0;
+}
+
+#root {
+  position: relative;
+  min-height: 100vh;
+}

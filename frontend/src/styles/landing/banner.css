@@ -1,0 +1,90 @@
+.landing__header_container {
+  height: 93vh;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-image: url('../app/assets/banner/1.jpg');
+    z-index: -1;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(85%);
+  }
+}
+
+.landing__header {
+  &_banner {
+    @apply h-screen pointer-events-none w-full relative;
+  }
+  &_description {
+    @apply absolute left-0 right-0 mx-auto md:mx-0 md:ml-[10%]
+      w-[300px] md:w-[500px] top-[22%] flex flex-col;
+    height: fit-content;
+    justify-content: space-between;
+  }
+
+  &_container {
+    position: relative;
+  }
+
+  &_foot {
+    @apply absolute bottom-[10%] left-0 right-0 m-auto flex flex-nowrap;
+    height: 55px;
+    justify-content: space-around;
+    color: #fff;
+    &_bg {
+      background-color: #fff;
+      opacity: 0.65;
+    }
+
+    &_bg,
+    &_items {
+      @apply absolute flex;
+      height: inherit;
+      width: inherit;
+      justify-content: space-around;
+    }
+
+    .carousel-root {
+      width: 100% !important;
+      pointer-events: none;
+      img {
+        width: 100px;
+        height: 55px;
+        object-fit: contain;
+        pointer-events: none;
+      }
+    }
+  }
+}
+
+.img_banner {
+  display: block;
+  object-fit: cover;
+  width: 120px !important;
+}
+
+@media screen and(min-width: 768px) {
+  .landing__header {
+    &_banner {
+      img {
+        max-height: 80vh;
+      }
+    }
+
+    &_description {
+      position: absolute;
+      left: 10%;
+      right: unset;
+      display: flex;
+      width: 500px;
+      text-align: left;
+    }
+  }
+}

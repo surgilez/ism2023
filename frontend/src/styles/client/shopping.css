@@ -1,0 +1,22 @@
+.shopping {
+  @apply flex w-full justify-end;
+  .container-info {
+    @apply w-full sm:w-[400px] flex flex-col;
+  }
+  .info {
+    @apply text-white
+          bg-gradient-banner
+          p-4
+          rounded-xl
+          shadow-lg
+          flex
+          flex-col;
+
+    .date {
+      @apply text-sm self-end;
+    }
+    p {
+      @apply font-bold text-lg;
+    }
+  }
+}

@@ -1,0 +1,1442 @@
+[
+    {
+        "codISO": "AD",
+        "nombrePais": "Andorra",
+        "codISO1": 20,
+        "codISO3": "AND"
+    },
+    {
+        "codISO": "AE",
+        "nombrePais": "Emiratos Árabes Unidos",
+        "codISO1": 784,
+        "codISO3": "ARE"
+    },
+    {
+        "codISO": "AF",
+        "nombrePais": "Afganistán",
+        "codISO1": 4,
+        "codISO3": "AFG"
+    },
+    {
+        "codISO": "AG",
+        "nombrePais": "Antigua y Barbuda",
+        "codISO1": 28,
+        "codISO3": "ATG"
+    },
+    {
+        "codISO": "AI",
+        "nombrePais": "Anguila",
+        "codISO1": 660,
+        "codISO3": "AIA"
+    },
+    {
+        "codISO": "AL",
+        "nombrePais": "Albania",
+        "codISO1": 8,
+        "codISO3": "ALB"
+    },
+    {
+        "codISO": "AM",
+        "nombrePais": "Armenia",
+        "codISO1": 51,
+        "codISO3": "ARM"
+    },
+    {
+        "codISO": "AN",
+        "nombrePais": "Antillas Neerlandesas",
+        "codISO1": 530,
+        "codISO3": "ANT"
+    },
+    {
+        "codISO": "AO",
+        "nombrePais": "Angola",
+        "codISO1": 24,
+        "codISO3": "AGO"
+    },
+    {
+        "codISO": "AQ",
+        "nombrePais": "Antártida",
+        "codISO1": 10,
+        "codISO3": "ATA"
+    },
+    {
+        "codISO": "AR",
+        "nombrePais": "Argentina",
+        "codISO1": 32,
+        "codISO3": "ARG"
+    },
+    {
+        "codISO": "AS",
+        "nombrePais": "Samoa Americana",
+        "codISO1": 16,
+        "codISO3": "ASM"
+    },
+    {
+        "codISO": "AT",
+        "nombrePais": "Austria",
+        "codISO1": 40,
+        "codISO3": "AUT"
+    },
+    {
+        "codISO": "AU",
+        "nombrePais": "Australia",
+        "codISO1": 36,
+        "codISO3": "AUS"
+    },
+    {
+        "codISO": "AW",
+        "nombrePais": "Aruba",
+        "codISO1": 533,
+        "codISO3": "ABW"
+    },
+    {
+        "codISO": "AX",
+        "nombrePais": "Islas Áland",
+        "codISO1": 248,
+        "codISO3": "ALA"
+    },
+    {
+        "codISO": "AZ",
+        "nombrePais": "Azerbaiyán",
+        "codISO1": 31,
+        "codISO3": "AZE"
+    },
+    {
+        "codISO": "BA",
+        "nombrePais": "Bosnia y Herzegovina",
+        "codISO1": 70,
+        "codISO3": "BIH"
+    },
+    {
+        "codISO": "BB",
+        "nombrePais": "Barbados",
+        "codISO1": 52,
+        "codISO3": "BRB"
+    },
+    {
+        "codISO": "BD",
+        "nombrePais": "Bangladesh",
+        "codISO1": 50,
+        "codISO3": "BGD"
+    },
+    {
+        "codISO": "BE",
+        "nombrePais": "Bélgica",
+        "codISO1": 56,
+        "codISO3": "BEL"
+    },
+    {
+        "codISO": "BF",
+        "nombrePais": "Burkina Faso",
+        "codISO1": 854,
+        "codISO3": "BFA"
+    },
+    {
+        "codISO": "BG",
+        "nombrePais": "Bulgaria",
+        "codISO1": 100,
+        "codISO3": "BGR"
+    },
+    {
+        "codISO": "BH",
+        "nombrePais": "Bahréin",
+        "codISO1": 48,
+        "codISO3": "BHR"
+    },
+    {
+        "codISO": "BI",
+        "nombrePais": "Burundi",
+        "codISO1": 108,
+        "codISO3": "BDI"
+    },
+    {
+        "codISO": "BJ",
+        "nombrePais": "Benin",
+        "codISO1": 204,
+        "codISO3": "BEN"
+    },
+    {
+        "codISO": "BL",
+        "nombrePais": "San Bartolomé",
+        "codISO1": 652,
+        "codISO3": "BLM"
+    },
+    {
+        "codISO": "BM",
+        "nombrePais": "Bermudas",
+        "codISO1": 60,
+        "codISO3": "BMU"
+    },
+    {
+        "codISO": "BN",
+        "nombrePais": "Brunéi",
+        "codISO1": 96,
+        "codISO3": "BRN"
+    },
+    {
+        "codISO": "BO",
+        "nombrePais": "Bolivia",
+        "codISO1": 68,
+        "codISO3": "BOL"
+    },
+    {
+        "codISO": "BR",
+        "nombrePais": "Brasil",
+        "codISO1": 76,
+        "codISO3": "BRA"
+    },
+    {
+        "codISO": "BS",
+        "nombrePais": "Bahamas",
+        "codISO1": 44,
+        "codISO3": "BHS"
+    },
+    {
+        "codISO": "BT",
+        "nombrePais": "Bhután",
+        "codISO1": 64,
+        "codISO3": "BTN"
+    },
+    {
+        "codISO": "BV",
+        "nombrePais": "Isla Bouvet",
+        "codISO1": 74,
+        "codISO3": "BVT"
+    },
+    {
+        "codISO": "BW",
+        "nombrePais": "Botsuana",
+        "codISO1": 72,
+        "codISO3": "BWA"
+    },
+    {
+        "codISO": "BY",
+        "nombrePais": "Belarús",
+        "codISO1": 112,
+        "codISO3": "BLR"
+    },
+    {
+        "codISO": "BZ",
+        "nombrePais": "Belice",
+        "codISO1": 84,
+        "codISO3": "BLZ"
+    },
+    {
+        "codISO": "CA",
+        "nombrePais": "Canadá",
+        "codISO1": 124,
+        "codISO3": "CAN"
+    },
+    {
+        "codISO": "CC",
+        "nombrePais": "Islas Cocos",
+        "codISO1": 166,
+        "codISO3": "CCK"
+    },
+    {
+        "codISO": "CF",
+        "nombrePais": "República Centro-Africana",
+        "codISO1": 140,
+        "codISO3": "CAF"
+    },
+    {
+        "codISO": "CG",
+        "nombrePais": "Congo",
+        "codISO1": 178,
+        "codISO3": "COG"
+    },
+    {
+        "codISO": "CH",
+        "nombrePais": "Suiza",
+        "codISO1": 756,
+        "codISO3": "CHE"
+    },
+    {
+        "codISO": "CI",
+        "nombrePais": "Costa de Marfil",
+        "codISO1": 384,
+        "codISO3": "CIV"
+    },
+    {
+        "codISO": "CK",
+        "nombrePais": "Islas Cook",
+        "codISO1": 184,
+        "codISO3": "COK"
+    },
+    {
+        "codISO": "CL",
+        "nombrePais": "Chile",
+        "codISO1": 152,
+        "codISO3": "CHL"
+    },
+    {
+        "codISO": "CM",
+        "nombrePais": "Camerún",
+        "codISO1": 120,
+        "codISO3": "CMR"
+    },
+    {
+        "codISO": "CN",
+        "nombrePais": "China",
+        "codISO1": 156,
+        "codISO3": "CHN"
+    },
+    {
+        "codISO": "CO",
+        "nombrePais": "Colombia",
+        "codISO1": 170,
+        "codISO3": "COL"
+    },
+    {
+        "codISO": "CR",
+        "nombrePais": "Costa Rica",
+        "codISO1": 188,
+        "codISO3": "CRI"
+    },
+    {
+        "codISO": "CU",
+        "nombrePais": "Cuba",
+        "codISO1": 192,
+        "codISO3": "CUB"
+    },
+    {
+        "codISO": "CV",
+        "nombrePais": "Cabo Verde",
+        "codISO1": 132,
+        "codISO3": "CPV"
+    },
+    {
+        "codISO": "CX",
+        "nombrePais": "Islas Christmas",
+        "codISO1": 162,
+        "codISO3": "CXR"
+    },
+    {
+        "codISO": "CY",
+        "nombrePais": "Chipre",
+        "codISO1": 196,
+        "codISO3": "CYP"
+    },
+    {
+        "codISO": "CZ",
+        "nombrePais": "República Checa",
+        "codISO1": 203,
+        "codISO3": "CZE"
+    },
+    {
+        "codISO": "DE",
+        "nombrePais": "Alemania",
+        "codISO1": 276,
+        "codISO3": "DEU"
+    },
+    {
+        "codISO": "DJ",
+        "nombrePais": "Yibuti",
+        "codISO1": 262,
+        "codISO3": "DJI"
+    },
+    {
+        "codISO": "DK",
+        "nombrePais": "Dinamarca",
+        "codISO1": 208,
+        "codISO3": "DNK"
+    },
+    {
+        "codISO": "DM",
+        "nombrePais": "Domínica",
+        "codISO1": 212,
+        "codISO3": "DMA"
+    },
+    {
+        "codISO": "DO",
+        "nombrePais": "República Dominicana",
+        "codISO1": 214,
+        "codISO3": "DOM"
+    },
+    {
+        "codISO": "DZ",
+        "nombrePais": "Argel",
+        "codISO1": 12,
+        "codISO3": "DZA"
+    },
+    {
+        "codISO": "EC",
+        "nombrePais": "Ecuador",
+        "codISO1": 218,
+        "codISO3": "ECU"
+    },
+    {
+        "codISO": "EE",
+        "nombrePais": "Estonia",
+        "codISO1": 233,
+        "codISO3": "EST"
+    },
+    {
+        "codISO": "EG",
+        "nombrePais": "Egipto",
+        "codISO1": 818,
+        "codISO3": "EGY"
+    },
+    {
+        "codISO": "EH",
+        "nombrePais": "Sahara Occidental",
+        "codISO1": 732,
+        "codISO3": "ESH"
+    },
+    {
+        "codISO": "ER",
+        "nombrePais": "Eritrea",
+        "codISO1": 232,
+        "codISO3": "ERI"
+    },
+    {
+        "codISO": "ES",
+        "nombrePais": "España",
+        "codISO1": 724,
+        "codISO3": "ESP"
+    },
+    {
+        "codISO": "ET",
+        "nombrePais": "Etiopía",
+        "codISO1": 231,
+        "codISO3": "ETH"
+    },
+    {
+        "codISO": "FI",
+        "nombrePais": "Finlandia",
+        "codISO1": 246,
+        "codISO3": "FIN"
+    },
+    {
+        "codISO": "FJ",
+        "nombrePais": "Fiji",
+        "codISO1": 242,
+        "codISO3": "FJI"
+    },
+    {
+        "codISO": "FK",
+        "nombrePais": "Islas Malvinas",
+        "codISO1": 238,
+        "codISO3": "KLK"
+    },
+    {
+        "codISO": "FM",
+        "nombrePais": "Micronesia",
+        "codISO1": 583,
+        "codISO3": "FSM"
+    },
+    {
+        "codISO": "FO",
+        "nombrePais": "Islas Faroe",
+        "codISO1": 234,
+        "codISO3": "FRO"
+    },
+    {
+        "codISO": "FR",
+        "nombrePais": "Francia",
+        "codISO1": 250,
+        "codISO3": "FRA"
+    },
+    {
+        "codISO": "GA",
+        "nombrePais": "Gabón",
+        "codISO1": 266,
+        "codISO3": "GAB"
+    },
+    {
+        "codISO": "GB",
+        "nombrePais": "Reino Unido",
+        "codISO1": 826,
+        "codISO3": "GBR"
+    },
+    {
+        "codISO": "GD",
+        "nombrePais": "Granada",
+        "codISO1": 308,
+        "codISO3": "GRD"
+    },
+    {
+        "codISO": "GE",
+        "nombrePais": "Georgia",
+        "codISO1": 268,
+        "codISO3": "GEO"
+    },
+    {
+        "codISO": "GF",
+        "nombrePais": "Guayana Francesa",
+        "codISO1": 254,
+        "codISO3": "GUF"
+    },
+    {
+        "codISO": "GG",
+        "nombrePais": "Guernsey",
+        "codISO1": 831,
+        "codISO3": "GGY"
+    },
+    {
+        "codISO": "GH",
+        "nombrePais": "Ghana",
+        "codISO1": 288,
+        "codISO3": "GHA"
+    },
+    {
+        "codISO": "GI",
+        "nombrePais": "Gibraltar",
+        "codISO1": 292,
+        "codISO3": "GIB"
+    },
+    {
+        "codISO": "GL",
+        "nombrePais": "Groenlandia",
+        "codISO1": 304,
+        "codISO3": "GRL"
+    },
+    {
+        "codISO": "GM",
+        "nombrePais": "Gambia",
+        "codISO1": 270,
+        "codISO3": "GMB"
+    },
+    {
+        "codISO": "GN",
+        "nombrePais": "Guinea",
+        "codISO1": 324,
+        "codISO3": "GIN"
+    },
+    {
+        "codISO": "GP",
+        "nombrePais": "Guadalupe",
+        "codISO1": 312,
+        "codISO3": "GLP"
+    },
+    {
+        "codISO": "GQ",
+        "nombrePais": "Guinea Ecuatorial",
+        "codISO1": 226,
+        "codISO3": "GNQ"
+    },
+    {
+        "codISO": "GR",
+        "nombrePais": "Grecia",
+        "codISO1": 300,
+        "codISO3": "GRC"
+    },
+    {
+        "codISO": "GS",
+        "nombrePais": "Georgia del Sur e Islas Sandwich del Sur",
+        "codISO1": 239,
+        "codISO3": "SGS"
+    },
+    {
+        "codISO": "GT",
+        "nombrePais": "Guatemala",
+        "codISO1": 320,
+        "codISO3": "GTM"
+    },
+    {
+        "codISO": "GU",
+        "nombrePais": "Guam",
+        "codISO1": 316,
+        "codISO3": "GUM"
+    },
+    {
+        "codISO": "GW",
+        "nombrePais": "Guinea-Bissau",
+        "codISO1": 624,
+        "codISO3": "GNB"
+    },
+    {
+        "codISO": "GY",
+        "nombrePais": "Guayana",
+        "codISO1": 328,
+        "codISO3": "GUY"
+    },
+    {
+        "codISO": "HK",
+        "nombrePais": "Hong Kong",
+        "codISO1": 344,
+        "codISO3": "HKG"
+    },
+    {
+        "codISO": "HM",
+        "nombrePais": "Islas Heard y McDonald",
+        "codISO1": 334,
+        "codISO3": "HMD"
+    },
+    {
+        "codISO": "HN",
+        "nombrePais": "Honduras",
+        "codISO1": 340,
+        "codISO3": "HND"
+    },
+    {
+        "codISO": "HR",
+        "nombrePais": "Croacia",
+        "codISO1": 191,
+        "codISO3": "HRV"
+    },
+    {
+        "codISO": "HT",
+        "nombrePais": "Haití",
+        "codISO1": 332,
+        "codISO3": "HTI"
+    },
+    {
+        "codISO": "HU",
+        "nombrePais": "Hungría",
+        "codISO1": 348,
+        "codISO3": "HUN"
+    },
+    {
+        "codISO": "ID",
+        "nombrePais": "Indonesia",
+        "codISO1": 360,
+        "codISO3": "IDN"
+    },
+    {
+        "codISO": "IE",
+        "nombrePais": "Irlanda",
+        "codISO1": 372,
+        "codISO3": "IRL"
+    },
+    {
+        "codISO": "IL",
+        "nombrePais": "Israel",
+        "codISO1": 376,
+        "codISO3": "ISR"
+    },
+    {
+        "codISO": "IM",
+        "nombrePais": "Isla de Man",
+        "codISO1": 833,
+        "codISO3": "IMN"
+    },
+    {
+        "codISO": "IN",
+        "nombrePais": "India",
+        "codISO1": 356,
+        "codISO3": "IND"
+    },
+    {
+        "codISO": "IO",
+        "nombrePais": "Territorio Británico del Océano Índico",
+        "codISO1": 86,
+        "codISO3": "IOT"
+    },
+    {
+        "codISO": "IQ",
+        "nombrePais": "Irak",
+        "codISO1": 368,
+        "codISO3": "IRQ"
+    },
+    {
+        "codISO": "IR",
+        "nombrePais": "Irán",
+        "codISO1": 364,
+        "codISO3": "IRN"
+    },
+    {
+        "codISO": "IS",
+        "nombrePais": "Islandia",
+        "codISO1": 352,
+        "codISO3": "ISL"
+    },
+    {
+        "codISO": "IT",
+        "nombrePais": "Italia",
+        "codISO1": 380,
+        "codISO3": "ITA"
+    },
+    {
+        "codISO": "JE",
+        "nombrePais": "Jersey",
+        "codISO1": 832,
+        "codISO3": "JEY"
+    },
+    {
+        "codISO": "JM",
+        "nombrePais": "Jamaica",
+        "codISO1": 388,
+        "codISO3": "JAM"
+    },
+    {
+        "codISO": "JO",
+        "nombrePais": "Jordania",
+        "codISO1": 400,
+        "codISO3": "JOR"
+    },
+    {
+        "codISO": "JP",
+        "nombrePais": "Japón",
+        "codISO1": 392,
+        "codISO3": "JPN"
+    },
+    {
+        "codISO": "KE",
+        "nombrePais": "Kenia",
+        "codISO1": 404,
+        "codISO3": "KEN"
+    },
+    {
+        "codISO": "KG",
+        "nombrePais": "Kirguistán",
+        "codISO1": 417,
+        "codISO3": "KGZ"
+    },
+    {
+        "codISO": "KH",
+        "nombrePais": "Camboya",
+        "codISO1": 116,
+        "codISO3": "KHM"
+    },
+    {
+        "codISO": "KI",
+        "nombrePais": "Kiribati",
+        "codISO1": 296,
+        "codISO3": "KIR"
+    },
+    {
+        "codISO": "KM",
+        "nombrePais": "Comoros",
+        "codISO1": 174,
+        "codISO3": "COM"
+    },
+    {
+        "codISO": "KN",
+        "nombrePais": "San Cristóbal y Nieves",
+        "codISO1": 659,
+        "codISO3": "KNA"
+    },
+    {
+        "codISO": "KP",
+        "nombrePais": "Corea del Norte",
+        "codISO1": 408,
+        "codISO3": "PRK"
+    },
+    {
+        "codISO": "KR",
+        "nombrePais": "Corea del Sur",
+        "codISO1": 410,
+        "codISO3": "KOR"
+    },
+    {
+        "codISO": "KW",
+        "nombrePais": "Kuwait",
+        "codISO1": 414,
+        "codISO3": "KWT"
+    },
+    {
+        "codISO": "KY",
+        "nombrePais": "Islas Caimán",
+        "codISO1": 136,
+        "codISO3": "CYM"
+    },
+    {
+        "codISO": "KZ",
+        "nombrePais": "Kazajstán",
+        "codISO1": 398,
+        "codISO3": "KAZ"
+    },
+    {
+        "codISO": "LA",
+        "nombrePais": "Laos",
+        "codISO1": 418,
+        "codISO3": "LAO"
+    },
+    {
+        "codISO": "LB",
+        "nombrePais": "Líbano",
+        "codISO1": 422,
+        "codISO3": "LBN"
+    },
+    {
+        "codISO": "LC",
+        "nombrePais": "Santa Lucía",
+        "codISO1": 662,
+        "codISO3": "LCA"
+    },
+    {
+        "codISO": "LI",
+        "nombrePais": "Liechtenstein",
+        "codISO1": 438,
+        "codISO3": "LIE"
+    },
+    {
+        "codISO": "LK",
+        "nombrePais": "Sri Lanka",
+        "codISO1": 144,
+        "codISO3": "LKA"
+    },
+    {
+        "codISO": "LR",
+        "nombrePais": "Liberia",
+        "codISO1": 430,
+        "codISO3": "LBR"
+    },
+    {
+        "codISO": "LS",
+        "nombrePais": "Lesotho",
+        "codISO1": 426,
+        "codISO3": "LSO"
+    },
+    {
+        "codISO": "LT",
+        "nombrePais": "Lituania",
+        "codISO1": 440,
+        "codISO3": "LTU"
+    },
+    {
+        "codISO": "LU",
+        "nombrePais": "Luxemburgo",
+        "codISO1": 442,
+        "codISO3": "LUX"
+    },
+    {
+        "codISO": "LV",
+        "nombrePais": "Letonia",
+        "codISO1": 428,
+        "codISO3": "LVA"
+    },
+    {
+        "codISO": "LY",
+        "nombrePais": "Libia",
+        "codISO1": 434,
+        "codISO3": "LBY"
+    },
+    {
+        "codISO": "MA",
+        "nombrePais": "Marruecos",
+        "codISO1": 504,
+        "codISO3": "MAR"
+    },
+    {
+        "codISO": "MC",
+        "nombrePais": "Mónaco",
+        "codISO1": 492,
+        "codISO3": "MCO"
+    },
+    {
+        "codISO": "MD",
+        "nombrePais": "Moldova",
+        "codISO1": 498,
+        "codISO3": "MDA"
+    },
+    {
+        "codISO": "ME",
+        "nombrePais": "Montenegro",
+        "codISO1": 499,
+        "codISO3": "MNE"
+    },
+    {
+        "codISO": "MG",
+        "nombrePais": "Madagascar",
+        "codISO1": 450,
+        "codISO3": "MDG"
+    },
+    {
+        "codISO": "MH",
+        "nombrePais": "Islas Marshall",
+        "codISO1": 584,
+        "codISO3": "MHL"
+    },
+    {
+        "codISO": "MK",
+        "nombrePais": "Macedonia",
+        "codISO1": 807,
+        "codISO3": "MKD"
+    },
+    {
+        "codISO": "ML",
+        "nombrePais": "Mali",
+        "codISO1": 466,
+        "codISO3": "MLI"
+    },
+    {
+        "codISO": "MM",
+        "nombrePais": "Myanmar",
+        "codISO1": 104,
+        "codISO3": "MMR"
+    },
+    {
+        "codISO": "MN",
+        "nombrePais": "Mongolia",
+        "codISO1": 496,
+        "codISO3": "MNG"
+    },
+    {
+        "codISO": "MO",
+        "nombrePais": "Macao",
+        "codISO1": 446,
+        "codISO3": "MAC"
+    },
+    {
+        "codISO": "MQ",
+        "nombrePais": "Martinica",
+        "codISO1": 474,
+        "codISO3": "MTQ"
+    },
+    {
+        "codISO": "MR",
+        "nombrePais": "Mauritania",
+        "codISO1": 478,
+        "codISO3": "MRT"
+    },
+    {
+        "codISO": "MS",
+        "nombrePais": "Montserrat",
+        "codISO1": 500,
+        "codISO3": "MSR"
+    },
+    {
+        "codISO": "MT",
+        "nombrePais": "Malta",
+        "codISO1": 470,
+        "codISO3": "MLT"
+    },
+    {
+        "codISO": "MU",
+        "nombrePais": "Mauricio",
+        "codISO1": 480,
+        "codISO3": "MUS"
+    },
+    {
+        "codISO": "MV",
+        "nombrePais": "Maldivas",
+        "codISO1": 462,
+        "codISO3": "MDV"
+    },
+    {
+        "codISO": "MW",
+        "nombrePais": "Malawi",
+        "codISO1": 454,
+        "codISO3": "MWI"
+    },
+    {
+        "codISO": "MX",
+        "nombrePais": "México",
+        "codISO1": 484,
+        "codISO3": "MEX"
+    },
+    {
+        "codISO": "MY",
+        "nombrePais": "Malasia",
+        "codISO1": 458,
+        "codISO3": "MYS"
+    },
+    {
+        "codISO": "MZ",
+        "nombrePais": "Mozambique",
+        "codISO1": 508,
+        "codISO3": "MOZ"
+    },
+    {
+        "codISO": "NA",
+        "nombrePais": "Namibia",
+        "codISO1": 516,
+        "codISO3": "NAM"
+    },
+    {
+        "codISO": "NC",
+        "nombrePais": "Nueva Caledonia",
+        "codISO1": 540,
+        "codISO3": "NCL"
+    },
+    {
+        "codISO": "NE",
+        "nombrePais": "Níger",
+        "codISO1": 562,
+        "codISO3": "NER"
+    },
+    {
+        "codISO": "NF",
+        "nombrePais": "Islas Norkfolk",
+        "codISO1": 574,
+        "codISO3": "NFK"
+    },
+    {
+        "codISO": "NG",
+        "nombrePais": "Nigeria",
+        "codISO1": 566,
+        "codISO3": "NGA"
+    },
+    {
+        "codISO": "NI",
+        "nombrePais": "Nicaragua",
+        "codISO1": 558,
+        "codISO3": "NIC"
+    },
+    {
+        "codISO": "NL",
+        "nombrePais": "Países Bajos",
+        "codISO1": 528,
+        "codISO3": "NLD"
+    },
+    {
+        "codISO": "NO",
+        "nombrePais": "Noruega",
+        "codISO1": 578,
+        "codISO3": "NOR"
+    },
+    {
+        "codISO": "NP",
+        "nombrePais": "Nepal",
+        "codISO1": 524,
+        "codISO3": "NPL"
+    },
+    {
+        "codISO": "NR",
+        "nombrePais": "Nauru",
+        "codISO1": 520,
+        "codISO3": "NRU"
+    },
+    {
+        "codISO": "NU",
+        "nombrePais": "Niue",
+        "codISO1": 570,
+        "codISO3": "NIU"
+    },
+    {
+        "codISO": "NZ",
+        "nombrePais": "Nueva Zelanda",
+        "codISO1": 554,
+        "codISO3": "NZL"
+    },
+    {
+        "codISO": "OM",
+        "nombrePais": "Omán",
+        "codISO1": 512,
+        "codISO3": "OMN"
+    },
+    {
+        "codISO": "PA",
+        "nombrePais": "Panamá",
+        "codISO1": 591,
+        "codISO3": "PAN"
+    },
+    {
+        "codISO": "PE",
+        "nombrePais": "Perú",
+        "codISO1": 604,
+        "codISO3": "PER"
+    },
+    {
+        "codISO": "PF",
+        "nombrePais": "Polinesia Francesa",
+        "codISO1": 258,
+        "codISO3": "PYF"
+    },
+    {
+        "codISO": "PG",
+        "nombrePais": "Papúa Nueva Guinea",
+        "codISO1": 598,
+        "codISO3": "PNG"
+    },
+    {
+        "codISO": "PH",
+        "nombrePais": "Filipinas",
+        "codISO1": 608,
+        "codISO3": "PHL"
+    },
+    {
+        "codISO": "PK",
+        "nombrePais": "Pakistán",
+        "codISO1": 586,
+        "codISO3": "PAK"
+    },
+    {
+        "codISO": "PL",
+        "nombrePais": "Polonia",
+        "codISO1": 616,
+        "codISO3": "POL"
+    },
+    {
+        "codISO": "PM",
+        "nombrePais": "San Pedro y Miquelón",
+        "codISO1": 666,
+        "codISO3": "SPM"
+    },
+    {
+        "codISO": "PN",
+        "nombrePais": "Islas Pitcairn",
+        "codISO1": 612,
+        "codISO3": "PCN"
+    },
+    {
+        "codISO": "PR",
+        "nombrePais": "Puerto Rico",
+        "codISO1": 630,
+        "codISO3": "PRI"
+    },
+    {
+        "codISO": "PS",
+        "nombrePais": "Palestina",
+        "codISO1": 275,
+        "codISO3": "PSE"
+    },
+    {
+        "codISO": "PT",
+        "nombrePais": "Portugal",
+        "codISO1": 620,
+        "codISO3": "PRT"
+    },
+    {
+        "codISO": "PW",
+        "nombrePais": "Islas Palaos",
+        "codISO1": 585,
+        "codISO3": "PLW"
+    },
+    {
+        "codISO": "PY",
+        "nombrePais": "Paraguay",
+        "codISO1": 600,
+        "codISO3": "PRY"
+    },
+    {
+        "codISO": "QA",
+        "nombrePais": "Qatar",
+        "codISO1": 634,
+        "codISO3": "QAT"
+    },
+    {
+        "codISO": "RE",
+        "nombrePais": "Reunión",
+        "codISO1": 638,
+        "codISO3": "REU"
+    },
+    {
+        "codISO": "RO",
+        "nombrePais": "Rumanía",
+        "codISO1": 642,
+        "codISO3": "ROU"
+    },
+    {
+        "codISO": "RS",
+        "nombrePais": "Serbia y Montenegro",
+        "codISO1": 688,
+        "codISO3": "SRB"
+    },
+    {
+        "codISO": "RU",
+        "nombrePais": "Rusia",
+        "codISO1": 643,
+        "codISO3": "RUS"
+    },
+    {
+        "codISO": "RW",
+        "nombrePais": "Ruanda",
+        "codISO1": 646,
+        "codISO3": "RWA"
+    },
+    {
+        "codISO": "SA",
+        "nombrePais": "Arabia Saudita",
+        "codISO1": 682,
+        "codISO3": "SAU"
+    },
+    {
+        "codISO": "SB",
+        "nombrePais": "Islas Solomón",
+        "codISO1": 90,
+        "codISO3": "SLB"
+    },
+    {
+        "codISO": "SC",
+        "nombrePais": "Seychelles",
+        "codISO1": 690,
+        "codISO3": "SYC"
+    },
+    {
+        "codISO": "SD",
+        "nombrePais": "Sudán",
+        "codISO1": 736,
+        "codISO3": "SDN"
+    },
+    {
+        "codISO": "SE",
+        "nombrePais": "Suecia",
+        "codISO1": 752,
+        "codISO3": "SWE"
+    },
+    {
+        "codISO": "SG",
+        "nombrePais": "Singapur",
+        "codISO1": 702,
+        "codISO3": "SGP"
+    },
+    {
+        "codISO": "SH",
+        "nombrePais": "Santa Elena",
+        "codISO1": 654,
+        "codISO3": "SHN"
+    },
+    {
+        "codISO": "SI",
+        "nombrePais": "Eslovenia",
+        "codISO1": 705,
+        "codISO3": "SVN"
+    },
+    {
+        "codISO": "SJ",
+        "nombrePais": "Islas Svalbard y Jan Mayen",
+        "codISO1": 744,
+        "codISO3": "SJM"
+    },
+    {
+        "codISO": "SK",
+        "nombrePais": "Eslovaquia",
+        "codISO1": 703,
+        "codISO3": "SVK"
+    },
+    {
+        "codISO": "SL",
+        "nombrePais": "Sierra Leona",
+        "codISO1": 694,
+        "codISO3": "SLE"
+    },
+    {
+        "codISO": "SM",
+        "nombrePais": "San Marino",
+        "codISO1": 674,
+        "codISO3": "SMR"
+    },
+    {
+        "codISO": "SN",
+        "nombrePais": "Senegal",
+        "codISO1": 686,
+        "codISO3": "SEN"
+    },
+    {
+        "codISO": "SO",
+        "nombrePais": "Somalia",
+        "codISO1": 706,
+        "codISO3": "SOM"
+    },
+    {
+        "codISO": "SR",
+        "nombrePais": "Surinam",
+        "codISO1": 740,
+        "codISO3": "SUR"
+    },
+    {
+        "codISO": "ST",
+        "nombrePais": "Santo Tomé y Príncipe",
+        "codISO1": 678,
+        "codISO3": "STP"
+    },
+    {
+        "codISO": "SV",
+        "nombrePais": "El Salvador",
+        "codISO1": 222,
+        "codISO3": "SLV"
+    },
+    {
+        "codISO": "SY",
+        "nombrePais": "Siria",
+        "codISO1": 760,
+        "codISO3": "SYR"
+    },
+    {
+        "codISO": "SZ",
+        "nombrePais": "Suazilandia",
+        "codISO1": 748,
+        "codISO3": "SWZ"
+    },
+    {
+        "codISO": "TC",
+        "nombrePais": "Islas Turcas y Caicos",
+        "codISO1": 796,
+        "codISO3": "TCA"
+    },
+    {
+        "codISO": "TD",
+        "nombrePais": "Chad",
+        "codISO1": 148,
+        "codISO3": "TCD"
+    },
+    {
+        "codISO": "TF",
+        "nombrePais": "Territorios Australes Franceses",
+        "codISO1": 260,
+        "codISO3": "ATF"
+    },
+    {
+        "codISO": "TG",
+        "nombrePais": "Togo",
+        "codISO1": 768,
+        "codISO3": "TGO"
+    },
+    {
+        "codISO": "TH",
+        "nombrePais": "Tailandia",
+        "codISO1": 764,
+        "codISO3": "THA"
+    },
+    {
+        "codISO": "TH",
+        "nombrePais": "Tanzania",
+        "codISO1": 834,
+        "codISO3": "TZA"
+    },
+    {
+        "codISO": "TJ",
+        "nombrePais": "Tayikistán",
+        "codISO1": 762,
+        "codISO3": "TJK"
+    },
+    {
+        "codISO": "TK",
+        "nombrePais": "Tokelau",
+        "codISO1": 772,
+        "codISO3": "TKL"
+    },
+    {
+        "codISO": "TL",
+        "nombrePais": "Timor-Leste",
+        "codISO1": 626,
+        "codISO3": "TLS"
+    },
+    {
+        "codISO": "TM",
+        "nombrePais": "Turkmenistán",
+        "codISO1": 795,
+        "codISO3": "TKM"
+    },
+    {
+        "codISO": "TN",
+        "nombrePais": "Túnez",
+        "codISO1": 788,
+        "codISO3": "TUN"
+    },
+    {
+        "codISO": "TO",
+        "nombrePais": "Tonga",
+        "codISO1": 776,
+        "codISO3": "TON"
+    },
+    {
+        "codISO": "TR",
+        "nombrePais": "Turquía",
+        "codISO1": 792,
+        "codISO3": "TUR"
+    },
+    {
+        "codISO": "TT",
+        "nombrePais": "Trinidad y Tobago",
+        "codISO1": 780,
+        "codISO3": "TTO"
+    },
+    {
+        "codISO": "TV",
+        "nombrePais": "Tuvalu",
+        "codISO1": 798,
+        "codISO3": "TUV"
+    },
+    {
+        "codISO": "TW",
+        "nombrePais": "Taiwán",
+        "codISO1": 158,
+        "codISO3": "TWN"
+    },
+    {
+        "codISO": "UA",
+        "nombrePais": "Ucrania",
+        "codISO1": 804,
+        "codISO3": "UKR"
+    },
+    {
+        "codISO": "UG",
+        "nombrePais": "Uganda",
+        "codISO1": 800,
+        "codISO3": "UGA"
+    },
+    {
+        "codISO": "US",
+        "nombrePais": "Estados Unidos de América",
+        "codISO1": 840,
+        "codISO3": "USA"
+    },
+    {
+        "codISO": "UY",
+        "nombrePais": "Uruguay",
+        "codISO1": 858,
+        "codISO3": "URY"
+    },
+    {
+        "codISO": "UZ",
+        "nombrePais": "Uzbekistán",
+        "codISO1": 860,
+        "codISO3": "UZB"
+    },
+    {
+        "codISO": "VA",
+        "nombrePais": "Ciudad del Vaticano",
+        "codISO1": 336,
+        "codISO3": "VAT"
+    },
+    {
+        "codISO": "VC",
+        "nombrePais": "San Vicente y las Granadinas",
+        "codISO1": 670,
+        "codISO3": "VCT"
+    },
+    {
+        "codISO": "VE",
+        "nombrePais": "Venezuela",
+        "codISO1": 862,
+        "codISO3": "VEN"
+    },
+    {
+        "codISO": "VG",
+        "nombrePais": "Islas Vírgenes Británicas",
+        "codISO1": 92,
+        "codISO3": "VGB"
+    },
+    {
+        "codISO": "VI",
+        "nombrePais": "Islas Vírgenes de los Estados Unidos de América",
+        "codISO1": 850,
+        "codISO3": "VIR"
+    },
+    {
+        "codISO": "VN",
+        "nombrePais": "Vietnam",
+        "codISO1": 704,
+        "codISO3": "VNM"
+    },
+    {
+        "codISO": "VU",
+        "nombrePais": "Vanuatu",
+        "codISO1": 548,
+        "codISO3": "VUT"
+    },
+    {
+        "codISO": "WF",
+        "nombrePais": "Wallis y Futuna",
+        "codISO1": 876,
+        "codISO3": "WLF"
+    },
+    {
+        "codISO": "WS",
+        "nombrePais": "Samoa",
+        "codISO1": 882,
+        "codISO3": "WSM"
+    },
+    {
+        "codISO": "YE",
+        "nombrePais": "Yemen",
+        "codISO1": 887,
+        "codISO3": "YEM"
+    },
+    {
+        "codISO": "YT",
+        "nombrePais": "Mayotte",
+        "codISO1": 175,
+        "codISO3": "MYT"
+    },
+    {
+        "codISO": "ZA",
+        "nombrePais": "Sudáfrica",
+        "codISO1": 710,
+        "codISO3": "ZAF"
+    }
+]

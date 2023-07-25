@@ -1,0 +1,6 @@
+export const GET_MEMBERSHIP_REPORTS = '[reports] GET_MEMBERSHIP_REPORTS'
+export const SET_LIST_MEMBERSHIP = '[reports] SET_LIST_MEMBERSHIP'
+export const SET_RESET_MEMBERSHIP_REPORT = '[reports] RESET_MEMBERSHIP_REPORT'
+export const GET_SALES_REPORTS = '[reports] GET_SALES_REPORTS'
+export const SET_LIST_SALES = '[reports] SET_LIST_SALES'
+export const SET_RESET_SALES_REPORT = '[reports] SET_RESET_SALES_REPORT'

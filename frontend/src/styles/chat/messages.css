@@ -1,0 +1,58 @@
+.messages {
+  height: 550px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  display: flex;
+  flex-direction: column;
+
+  .message {
+    min-width: 250px;
+    max-width: 300px;
+    overflow-wrap: break-word;
+
+    &_text {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1;
+      word-break: break-all;
+    }
+  }
+
+  &::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+  }
+
+  &__from {
+    margin: 1.25rem 0;
+    align-self: flex-start;
+    .avatar {
+      order: 0;
+    }
+  }
+
+  &__to {
+    margin: 1.25rem 0;
+    margin-right: 1.25rem;
+    align-self: flex-end;
+
+    .avatar {
+      order: 1;
+    }
+  }
+}
+
+.Twemoji {
+  width: 1.5em !important;
+  height: 1.5em !important;
+}
+
+.chat-messages {
+  padding: 2em;
+  border-radius: 20px;
+  min-height: 700px;
+}

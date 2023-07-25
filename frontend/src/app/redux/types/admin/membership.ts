@@ -1,0 +1,6 @@
+export const ADD_NEW_MEMBERSHIP = '[Membership] ADD'
+export const ACTIVE_MEMBERSHIP = '[Membership] ACTIVE'
+export const DELETE_MEMBERSHIP = '[Membership] DELETE'
+export const UPDATE_MEMBERSHIP = '[Membership] UPDATE'
+export const GET_MEMBERSHIP = '[Membership] GET'
+export const SUSPENSE_MEMBERSHIP = '[Membership] SUSPENSE'

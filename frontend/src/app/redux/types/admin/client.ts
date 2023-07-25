@@ -1,0 +1,8 @@
+export const SET_CLIENTS = '[clients] SET_CLIENTS'
+export const SET_LIST_CLIENTS = '[clients] SET_LIST'
+export const SUSPENSE_CLIENTS = '[clients] DELETE'
+export const SET_RESET_CLIENT = '[clients] RESET'
+export const EDIT_CLIENT = '[clients] EDIT'
+export const SET_ACTIVE_CLIENT = '[clients] ACTIVE'
+export const ADD_NEW_CLIENT = '[clients] ADD'
+export const SET_TOTAL_REGISTROS = '[clients] REGISTROS'

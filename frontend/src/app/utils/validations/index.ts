@@ -1,0 +1,1 @@
+export { validationsProfile } from './profile'

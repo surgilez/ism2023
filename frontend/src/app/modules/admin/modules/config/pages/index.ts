@@ -1,0 +1,1 @@
+export { EmailConfig } from './email'

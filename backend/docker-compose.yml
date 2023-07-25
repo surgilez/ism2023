@@ -1,0 +1,32 @@
+version: '3.9'
+
+services:
+  web:
+    container_name: ism
+    restart: always
+    build: .
+    volumes:
+      - './src:/usr/src/app/src'
+      - '.env:/usr/src/app/.env'
+      - /images:/usr/src/app/images
+
+  socket:
+    container_name: chat
+    restart: always
+    build:
+      context: ./chat
+      dockerfile: Dockerfile
+
+  nginx:
+    image: nginx:1.23-alpine
+    container_name: nginx
+    restart: always
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/conf.d/default.conf
+      - /etc/letsencrypt:/etc/letsencrypt
+    ports:
+      - 80:80
+      - 443:443
+    depends_on:
+      - web
+      - socket

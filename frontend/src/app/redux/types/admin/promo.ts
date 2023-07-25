@@ -1,0 +1,8 @@
+export const SET_LIST_PROMO = '[promo] SET_LIST_PROMO'
+export const ACTIVE_PROMO = '[promo] ACTIVE_PROMO'
+export const DELETE_PROMO = '[promo] DELETE_PROMO'
+export const UPDATE_PROMO = '[promo] UPDATE_PROMO'
+export const ADD_NEW_PROMO = '[promo] ADD_NEW_PROMO'
+export const MODAL_PROMO_OPEN = '[promo] MODAL_OPEN'
+export const MODAL_PROMO_INDEX = '[promo] MODAL_INDEX'
+export const MODAL_PROMO_HOTEL = '[promo] MODAL_HOTEL'

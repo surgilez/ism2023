@@ -1,0 +1,1 @@
+export { emailConfigValidation } from './email'

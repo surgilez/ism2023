@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es2021",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "baseUrl": "./src/",
+    "paths": {
+      "@middlewares/*": ["./middlewares/*"],
+      "@utils/*": ["./utils/*"],
+      "@config/*": ["./config/*"],
+      "@schemas/*": ["./schemas/*"],
+      "@controllers/*": ["./controllers/*"],
+      "@routes/*": ["./routes/*"],
+      "@interfaces/*": ["./interfaces/*"],
+      "@types/*": ["./types/*"],
+      "@docs/*": ["./docs/*"]
+    },
+    "typeRoots": ["./src/customTypes", "./node_modules/@types"],
+    "esModuleInterop": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "sourceMap": true
+  }
+}

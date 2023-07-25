@@ -1,0 +1,8 @@
+export const USERS_SOCKET = '[socket] setUsersSocket'
+export const TYPE_ACTIVE_CHAT = '[chat] setTypeActiveChat'
+export const ACTIVE_CHAT = '[chat] activeChat'
+export const MESSAGES = '[chat] loadMessages'
+export const NEW_MESSAGE = '[chat] newMessage'
+export const USERS_FILTER = '[chat] filterUsers'
+export const CONFIRM_CALL = '[chat] confirmCall'
+export const CONNECT_USER = '[chat] connectUser'
